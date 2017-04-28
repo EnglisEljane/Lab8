@@ -61,9 +61,9 @@ div.Youtubers {
 	width: 918px;
 	height: 50px;
 	border-style: hidden;
+	font-family: Roboto Condensed;
 }
 p{
-	font-family: Roboto Condensed;
 	font-size: 50px;
 	color: 	white;
 	background-color: #00b3b3;
