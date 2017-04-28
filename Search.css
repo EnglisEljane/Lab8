@@ -23,6 +23,7 @@
 /* Some left and right padding inside the container */
 .container {
     padding: 0 16px;
+	font-family: 'Roboto Condensed';
 }
 
 /* Clear floats */
@@ -86,6 +87,4 @@ p {
 	font-family: Assistant;
 	font-size: 17px;
 }
-h2 {
-	font-family: 'Roboto Condensed';
-}
+
