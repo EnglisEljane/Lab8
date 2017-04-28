@@ -1,0 +1,88 @@
+/* Five columns side by side */
+.column {
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+	margin-top; 20px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+	font-family: Assistant;
+    color: grey;
+	
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #00b3b3;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+	font-family: Roboto Condensed; 
+}
+
+.button:hover {
+    background-color: #008080;
+}
+
+body {
+	margin:0;
+	}
+	
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #00b3b3; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 25%; /* Equal width (5 icons with 20% width each = 100%)
+    padding: 20px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 45px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #008080; /* Add an active/current color */
+}
+p {
+	font-family: Assistant;
+	font-size: 17px;
+}

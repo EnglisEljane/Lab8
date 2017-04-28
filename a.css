@@ -1,0 +1,117 @@
+body {
+	margin:0;
+	}
+	
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #00b3b3; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 25%; /* Equal width (5 icons with 20% width each = 100%)
+    padding: 20px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 45px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #008080; /* Add an active/current color */
+}
+img {
+	width: 100%;
+	height: auto;
+	}
+h1 {
+	font-family: 'Courier';
+	color: 	white;
+	background-color: #00b3b3;
+	text-align: center;
+}
+h3 {
+	font-family: 'Assistant';
+	color: 	#008080;
+	text-align: justify;
+}
+h2 {
+	font-family: 'Assistant';
+	color: 	#008080;
+	text-align: justify;
+}
+
+div.TRIVIAS {
+	position: absolute;
+	top: 500px;
+	left: 10px;
+	width: 400px;
+	height: 100px;
+	border-style: hidden;
+}
+div.Youtubers {
+	position: absolute;
+	top: 470px;
+	left: 430px;
+	width: 918px;
+	height: 50px;
+	border-style: hidden;
+}
+p{
+	font-family: 'Courier';
+	font-size: 50px;
+	color: 	white;
+	background-color: #00b3b3;
+	text-align: center;
+}
+aside {
+text-align: justify;
+}
+div.img {
+	position: absolute;
+	top: 700px;
+	left: 10px;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 180px;
+}
+div.image {
+	position: absolute;
+	top: 700px;
+	left: 215px;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 190px;
+}
+footer {
+	position:absolute;
+	top: 1250px;
+	left: 10px;
+    padding: 1.15em;
+	width: 1300px;
+    background-color:#00b3b3 ;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
